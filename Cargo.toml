@@ -1,0 +1,12 @@
+[package]
+name = "codebot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+codespan-reporting = { version = "0.11.1", features = ["ascii-only"] }
+numbat = "1.8.0"
+serenity = "0.12.0"
+tokio = { version = "1.34.0", features = ["macros", "rt-multi-thread"] }
